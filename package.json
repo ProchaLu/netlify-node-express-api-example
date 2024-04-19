@@ -6,9 +6,10 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "index.js",
+  "main": "netlify/functions/api.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/netlify/functions/api.ts"
   },
   "devDependencies": {
     "eslint-config-upleveled": "^8.0.1",
